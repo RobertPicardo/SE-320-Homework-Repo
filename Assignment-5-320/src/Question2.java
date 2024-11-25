@@ -1,6 +1,7 @@
 /*
  * removes all duplicate elements from the list
  * @param lst list to remove duplicates from,
+ * requires that lst does not contain null elements
  * requires that lst contains types that all implement equals(),
  * requires that lst is in sorted order
  * @effects adjacent elements in lst which are duplicates are removed
